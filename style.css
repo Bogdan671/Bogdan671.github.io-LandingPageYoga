@@ -1235,6 +1235,12 @@ outline: 1px solid #EA5546;
 	.slider-container {
 		display: block;
 	}
+	
+	.header-nav-icons {
+		align-self: flex-start;
+		align-items: flex-start;
+		margin-left: 0;
+	}
 
 	.header-nav {
 		display: none;
@@ -1422,6 +1428,13 @@ outline: 1px solid #EA5546;
 	height: 350px;
 }     
 }
+	
+@media only screen and  (max-width: 360px) {
+	.header-nav-icons {
+		align-self: flex-start;
+		align-items: flex-start;
+		margin-left: -20px;
+	}	
 
 
 }
